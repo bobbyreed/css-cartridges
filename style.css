@@ -6,21 +6,7 @@
     background-color: lightgrey;
 }
 
-body{
-    display: block;
-}
-
-#nes{
-    display: grid;
-    grid-template: 1fr 1fr 4fr / 2fr 1fr;
-}
-
-.info{
-    grid-area: 3 / 2 / 4 / 3;
-}
-
-cartridge.nes {
-    grid-area: 3 / 1 / 4 / 2;
+.nes {
     display: grid;
     grid-template: 1fr 11fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 4fr 10fr 1fr 1fr 1fr;
 }
@@ -47,7 +33,7 @@ cartridge.nes {
 }
 .grip{
     grid-area: 1 / 4 / 2 / 5;
-    background-color: grey;
+    background-image: linear-gradient(0deg, rgb(83, 83, 83) 25%, rgb(128, 128, 128) 25%, rgb(128, 128, 128) 50%, rgb(83, 83, 83) 50%, rgb(83, 83, 83) 75%, rgb(128, 128, 128) 75%, rgb(128, 128, 128) 100%);
     border: 2px solid black;
     border-radius: 0px 0px 10px 10px;
 }
@@ -81,7 +67,7 @@ cartridge.nes {
     border-left: 2px solid black;
 }
 .grip-extend{
-    background-color: grey;
+    background-image: repeat(2, linear-gradient(0deg, rgb(83, 83, 83) 25%, rgb(128, 128, 128) 25%, rgb(128, 128, 128) 50%, rgb(83, 83, 83) 50%, rgb(83, 83, 83) 75%, rgb(128, 128, 128) 75%, rgb(128, 128, 128) 100%));
     grid-area: 2 / 4 / 7 / 5;
     border: 2px solid black;
     margin-top: -5px;
@@ -112,7 +98,7 @@ cartridge.nes {
     border-left: 2px solid black;
 }
 .bottom-grip{
-    background-color: grey;
+    background-image: linear-gradient(0deg, rgb(83, 83, 83) 25%, rgb(128, 128, 128) 25%, rgb(128, 128, 128) 50%, rgb(83, 83, 83) 50%, rgb(83, 83, 83) 75%, rgb(128, 128, 128) 75%, rgb(128, 128, 128) 100%);
     grid-area: 6 / 4 / 7 / 5;
     border: 2px solid black;
 }

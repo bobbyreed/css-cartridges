@@ -7,44 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-descrition">
     <h1>CSS Cartridges</h1>
 
     <p>This website is a demonstration of CSS Cartridges. This idea was inspired by <a href="http://manz.dev" target="_blank" rel="noopener" rel="noreferrer">Manz.dev</a> and <a href="https://www.reddit.com/r/webdev/comments/18fjmyf/nintendo_gameboy_cartridge_css/" target="_blank" rel="noopener" rel="noreferrer">this Reddit post</a>.</p>
+    </div>
     <div id="nes">
-    <h2>Nintendo Entertainment System Cartridge (NES)</h2>
-
-    <div class="container">
-        <!--Written from left to right up and down-->
-        <cartridge class="nes">
-           <div class="left-notch-left">           </div>
-           <div class="left-notch"></div>
-           <div class="left-notch-right"></div> 
-            <div class="grip"></div>
-            <div class="cover-image">
-                <img src="./nes-label-blank.png" alt="blank nes label">
-            </div>
-            <div class="right-notch-left"></div>
-           <div class="right-notch"></div>
-           <div class="right-notch-right"></div>
-           <!--starting second row-->
-           <div class="left-side"></div>
-           <div class="grip-extend"></div>
-           <div class="right-side"></div>
-            <!--starting third row-->
-            <div class="arrow">
-                <svg height="auto" width="auto" xmlns="http://www.w3.org/2000/svg" style="background-color: grey;">
-                    <polygon points="100,90 150, 190 50, 190" style="fill: rgb(83, 83, 83);" />
-                </svg>
-            </div>
-            <!--starting 4th row-->
-            <div class="left-bottom-side">
-          
-            </div>
-            <div class="bottom-grip"></div>
-            <div class="right-bottom-side"></div>
-
-                            
-        </cartridge>
+        <h2 class="cart-type">Nintendo Entertainment System Cartridge (NES)</h2>
+        <div class="nes-container">
+            <!--Written from left to right up and down-->
+            <cartridge class="nes">
+            <div class="left-notch-left">           </div>
+            <div class="left-notch"></div>
+            <div class="left-notch-right"></div> 
+                <div class="grip"></div>
+                <div class="cover-image">
+                    <img src="./nes-label-blank.png" alt="blank nes label">
+                </div>
+                <div class="right-notch-left"></div>
+            <div class="right-notch"></div>
+            <div class="right-notch-right"></div>
+            <!--starting second row-->
+            <div class="left-side"></div>
+            <div class="grip-extend"></div>
+            <div class="right-side"></div>
+                <!--starting third row-->
+                <div class="arrow">
+                    <svg height="auto" width="auto" xmlns="http://www.w3.org/2000/svg" style="background-color: grey;">
+                        <polygon points="100,90 150, 190 50, 190" style="fill: rgb(83, 83, 83);" />
+                    </svg>
+                </div>
+                <!--starting 4th row-->
+                <div class="left-bottom-side"> </div>
+                <div class="bottom-grip"></div>
+                <div class="right-bottom-side"></div>                  
+            </cartridge>
+        </div>
     </div>
     <div class="info">
         <h3>Created by: <a href="https://github.com/bobbyreed">bobby reed</a></h3>
