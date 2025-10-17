@@ -8,9 +8,11 @@
 </head>
 <body>
     <h1>CSS Cartridges</h1>
-    <p>This website is a demonstration of CSS Cartridges. This idea was inspired by <a href="http://manz.dev" target="_blank" rel="noopener" rel="noreferrer">Manz.dev</a> and <a href="https://www.reddit.com/r/webdev/comments/18fjmyf/nintendo_gameboy_cartridge_css/" target="_blank" rel="noopener" rel="noreferrer">this Reddit post</a>.</p>
 
+    <p>This website is a demonstration of CSS Cartridges. This idea was inspired by <a href="http://manz.dev" target="_blank" rel="noopener" rel="noreferrer">Manz.dev</a> and <a href="https://www.reddit.com/r/webdev/comments/18fjmyf/nintendo_gameboy_cartridge_css/" target="_blank" rel="noopener" rel="noreferrer">this Reddit post</a>.</p>
+    <div id="nes">
     <h2>Nintendo Entertainment System Cartridge (NES)</h2>
+
     <div class="container">
         <!--Written from left to right up and down-->
         <cartridge class="nes">
@@ -44,6 +46,18 @@
                             
         </cartridge>
     </div>
-    
+    <div class="info">
+        <h3>Created by: <a href="https://github.com/bobbyreed">bobby reed</a></h3>
+        <h3>Last Updated: 10/17/25</h3>
+        <h3>Description: NES Cartridge - Cartoon Style</h3>
+        <h3>Dev Journal:</h3>
+        <ul>
+            <li><em>10/15/25</em> - After working on a programattically created cartridge for my <a href="https://professor-arcade.life">professor arcade site</a> for a bit, I realized I needed to stop with trying to design it while it I was also working on the JS to automatically create each cartridge on upload. Thus, this site was born. I figured this is a great way to practice my CSS skills and also prepare templates that I can use later.</li>
+            <li><em>10/16/25</em> - Got the basic outline completed. First, I started with a print out of a real nes cartridge that I put on a graph white board to map out the fr. This worked extremely well. <br> As I got the basic structure of the grid coded into css, it was looking super wonky. It was then I realized I was using <code>grid-area</code> talking frs instead of lines. Once I realized I needed to talk lines, I fixed a bit of it and gave up with hope.</li>
+            <li><em>10/17/25</em> - Today, I was able to get dang near the whole thing implemented! Mapping it out on the whiteboard made a transformational difference. I was able to continually reference it in very useful ways.</li>
+            <li><em>10/20/25 <strong>to do</strong></em> - Add stripped portion down <code>grip.</code></li>
+        </ul>
+    </div>
+    </div>
 </body>
 </html>
