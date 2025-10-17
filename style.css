@@ -9,7 +9,7 @@
 
 cartridge.nes {
     display: grid;
-    grid-template: 1fr 8fr 11fr 3fr 4fr / 1fr 1fr 1fr 4fr 10fr 1fr 1fr 1fr;
+    grid-template: 1fr 11fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 4fr 10fr 1fr 1fr 1fr;
 }
 
 .left-notch-left{
@@ -33,71 +33,84 @@ cartridge.nes {
     
 }
 .grip{
-    grid-area: 1 / 4 / 3 / 5;
+    grid-area: 1 / 4 / 2 / 5;
     background-color: grey;
     border: 2px solid black;
-    border-radius: 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
 }
+
 .cover-image{
-    grid-area: 1 / 8 / 20 / 18;
+    background-color: grey;
+    padding: 0px 10px;
+    grid-area: 1 / 5 / 3 / 6;
+    border-top: 2px solid black;
 }
 .right-notch-left{
-    grid-area: 1 / 18 / 2 / 19;
+    grid-area: 1 / 6 / 2 / 7;
     background-color: grey;
     border-top: 2px solid black;
 }
 .right-notch{
     background-color: grey;
-    grid-area: 1 / 20 / 2 / 21;
+    grid-area: 1 / 7 / 2 / 8;
     border-top: 2px solid black;
     margin-top: 5px;
 }
 .right-notch-right{
     background-color: grey;
-    grid-area: 1 / 21 / 2 / 22;
+    grid-area: 1 / 8 / 2 / 9;
     border-top: 2px solid black;
     border-right: 2px solid black;
 }
 .left-side{
     background-color: grey;
-    grid-area: 2 / 1 / 24 / 4;
+    grid-area: 2 / 1 / 5 / 4;
     border-left: 2px solid black;
-    border-bottom: 2px solid black;
 }
 .grip-extend{
     background-color: grey;
-    grid-area: 3 / 4 / 7 / 5;
+    grid-area: 2 / 4 / 7 / 5;
     border: 2px solid black;
     margin-top: -5px;
 }
 .right-side{
     background-color: grey;
-    grid-area: 2 / 20 / 24 / 22;
+    grid-area: 2 / 6 / 5 / 9;
     border-right: 2px solid black;
-    border-bottom: 2px solid black;
 }
+
+
 .arrow {
     background-color: grey;
-    grid-area: 22 / 9 / 4 / 24;
-    border-bottom: 2px solid black;
+    grid-area: 3 / 5 / 6 / 6;
+    padding-top:3px;
 }
+
+.arrow svg {
+    display: grid;
+    background-color: grey;
+    rotate: 180deg;
+}
+
 .left-bottom-side{
     background-color: grey;
-    grid-area: 24 / 2 / 30 / 4;
+    grid-area: 5 / 2 / 7 / 4;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
 }
 .bottom-grip{
     background-color: grey;
-    grid-area: 24 / 4 / 30 / 5;
+    grid-area: 6 / 4 / 7 / 5;
     border: 2px solid black;
 }
 .right-bottom-side{
     background-color: grey;
-    grid-area: 24 / 8 / 30 / 22;
+    grid-area: 5 / 5 / 7 / 8;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
 }
+
+
 
 
 
